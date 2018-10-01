@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.designsrich.mapapplication.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+        <WebView
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:layout_margin = "10dp"
+            android:id="@+id/webView" android:layout_gravity="center_horizontal"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin = "10dp"
+            android:id="@+id/editText" android:layout_gravity="center_horizontal"
+            android:text="Sent This Text To JavaScript" android:background="#fbd6d6"/>
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:background="#fbd6d6"
+            android:text="Sent This Text To JavaScript" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Pass To JavaScript" />
+    </LinearLayout>
+</RelativeLayout>
